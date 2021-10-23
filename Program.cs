@@ -38,6 +38,7 @@ namespace Sort_Algorithm
 		private int[] Array { get; set; }
 		static void Main()
 		{
+			Program sort = new Program();
 			while(true)
 			{
 				Program sort = new Program();
@@ -84,7 +85,7 @@ namespace Sort_Algorithm
 				Array.SetValue(n.Next(1, (int)Array.GetLength(0)), i);
 				//File.AppendAllText("randomarray.txt", $"{Array[i]}, ");
 			}
-		}
+			}
 		internal void StaticArrayCreate()
 		{
 				Array = new int[] 
