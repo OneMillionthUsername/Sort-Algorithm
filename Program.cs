@@ -82,7 +82,7 @@ namespace Sort_Algorithm
 			for(int i = 0; i < Array.GetLength(0); i++)
 			{
 				Array.SetValue(n.Next(1, (int)Array.GetLength(0)), i);
-				//File.AppendAllText("randomarray.txt", $"{Array[i]}, ");
+				//File.AppendAllText("randomarray.txt", $"{Array[i]}, "); copy + paste content into StaticArrayCreate to change values
 			}
 		}
 		internal void StaticArrayCreate()
